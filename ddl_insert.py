@@ -39,9 +39,12 @@ class LinkedList:
         temp = self.head
         print("List Elements:")
 
-        while temp:
-            print(temp.data)
+        while temp.next:
+            #print(temp.data)
             temp = temp.next
+        while(temp):
+            print(temp.data,)
+            temp=temp.prev
 
 list1 = LinkedList()
 
@@ -50,5 +53,5 @@ list1.append(Node(13))
 list1.append(Node(14))
 list1.print()
 list1.insert(Node(200),1)
-list1.insert(Node(33),3)
+list1.insert(Node(33),2)
 list1.print()
