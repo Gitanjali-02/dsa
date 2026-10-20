@@ -1,3 +1,4 @@
+#COUNT NO OF NODES PRESENT IN THE LIST
 class Node:
     def __init__(self, val):
         self.data=val

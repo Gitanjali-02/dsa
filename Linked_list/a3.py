@@ -1,3 +1,4 @@
+#SUM OF ALL DATA IN NODES:
 class Node:
     def __init__(self, val):
         self.data=val

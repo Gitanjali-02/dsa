@@ -49,7 +49,7 @@ obj.insertATEnd(10)   # [10]
 obj.insertATEnd(20)   # [10, 20]
 obj.insertATEnd(30)   # [10, 20, 30]
 
-# obj.insertAtPos(Node(100), 1)  # Insert 100 at pos 1 -> [100, 10, 20, 30]
+obj.insertAtPos(Node(100), 1)  # Insert 100 at pos 1 -> [100, 10, 20, 30]
 # obj.insertAtPos(Node(66), 4)   # Insert 66 at pos 4  -> [100, 10, 20, 66, 30]
 
 obj.printLL()

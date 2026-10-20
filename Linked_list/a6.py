@@ -1,3 +1,4 @@
+#DELETE NODE IN THE LIST
 class Node:
     def __init__(self, val):
         self.data=val
